@@ -1,0 +1,25 @@
+Osoba
+
+    id
+    pesel
+    czyZyje
+    daneImion
+        imiePierwsze
+        imieDrugie
+        imionaKolejne
+        organNadajacy
+            kodOrganu
+            nazwaOrganu
+
+    adresy[]
+        ulica
+        numerDomu
+        numerMieszkania
+        miejscowość
+        kodPocztowy
+        organMeldujący
+            kodOrganu
+            nazwaOrganu
+        historyczneNazwyUlic[]
+            staraNazwa
+            nowaNazwa
